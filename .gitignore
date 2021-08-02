@@ -1,0 +1,4 @@
+.vscode/
+
+*.rbxl.lock
+*.rbxlx.lock

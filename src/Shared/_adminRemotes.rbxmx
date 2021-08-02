@@ -1,0 +1,72 @@
+<roblox version="4">
+  <Item class="Folder" referent="0">
+    <Properties>
+      <string name="Name">_adminRemotes</string>
+      <BinaryString name="AttributesSerialize">
+      </BinaryString>
+      <int64 name="SourceAssetId">-1</int64>
+      <BinaryString name="Tags">
+      </BinaryString>
+    </Properties>
+    <Item class="Folder" referent="1">
+      <Properties>
+        <string name="Name">Server</string>
+        <BinaryString name="AttributesSerialize">
+        </BinaryString>
+        <int64 name="SourceAssetId">-1</int64>
+        <BinaryString name="Tags">
+        </BinaryString>
+      </Properties>
+      <Item class="RemoteEvent" referent="2">
+        <Properties>
+          <string name="Name">AdminEvent</string>
+          <BinaryString name="AttributesSerialize">
+          </BinaryString>
+          <int64 name="SourceAssetId">-1</int64>
+          <BinaryString name="Tags">
+          </BinaryString>
+        </Properties>
+      </Item>
+    </Item>
+    <Item class="Folder" referent="3">
+      <Properties>
+        <string name="Name">Client</string>
+        <BinaryString name="AttributesSerialize">
+        </BinaryString>
+        <int64 name="SourceAssetId">-1</int64>
+        <BinaryString name="Tags">
+        </BinaryString>
+      </Properties>
+      <Item class="RemoteEvent" referent="4">
+        <Properties>
+          <string name="Name">SendChatNotif</string>
+          <BinaryString name="AttributesSerialize">
+          </BinaryString>
+          <int64 name="SourceAssetId">-1</int64>
+          <BinaryString name="Tags">
+          </BinaryString>
+        </Properties>
+      </Item>
+      <Item class="RemoteEvent" referent="5">
+        <Properties>
+          <string name="Name">SendCoreNotif</string>
+          <BinaryString name="AttributesSerialize">
+          </BinaryString>
+          <int64 name="SourceAssetId">-1</int64>
+          <BinaryString name="Tags">
+          </BinaryString>
+        </Properties>
+      </Item>
+      <Item class="BindableEvent" referent="6">
+        <Properties>
+          <string name="Name">SendClientCoreNotif</string>
+          <BinaryString name="AttributesSerialize">
+          </BinaryString>
+          <int64 name="SourceAssetId">-1</int64>
+          <BinaryString name="Tags">
+          </BinaryString>
+        </Properties>
+      </Item>
+    </Item>
+  </Item>
+</roblox>

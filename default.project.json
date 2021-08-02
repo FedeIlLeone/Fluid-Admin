@@ -1,0 +1,42 @@
+{
+	"name": "Fluid Admin",
+	"tree": {
+		"$className": "DataModel",
+
+		"ReplicatedStorage": {
+			"$className": "ReplicatedStorage",
+			"$path": "src/Shared"
+		},
+
+		"ServerScriptService": {
+			"$className": "ServerScriptService",
+
+			"AdminServer": {
+				"$path": "src/Server",
+
+				"Webhook": {
+					"$className": "StringValue"
+				}
+			}
+		},
+
+		"StarterPlayer": {
+			"$className": "StarterPlayer",
+
+			"StarterPlayerScripts": {
+				"$className": "StarterPlayerScripts",
+
+				"AdminClient": {
+					"$path": "src/Client"
+				}
+			}
+		},
+
+		"HttpService": {
+			"$className": "HttpService",
+			"$properties": {
+				"HttpEnabled": true
+			}
+		}
+	}
+}
