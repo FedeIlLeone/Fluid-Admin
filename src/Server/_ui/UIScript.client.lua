@@ -140,6 +140,13 @@ MainButton.Clicked:Connect(function()
 	panelOpen = not panelOpen
 end)
 
+local KickButton = ButtonController.Create(Contents.KickButton)
+local KickFrame = Frames.Pages.KickFrame
+
+KickButton.Clicked:Connect(function()
+	triggerFramesPanel(KickFrame, KickButton)
+end)
+
 local BanButton = ButtonController.Create(Contents.BanButton)
 local BanFrame = Frames.Pages.BanFrame
 

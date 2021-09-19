@@ -208,6 +208,7 @@
             <YS>0.5</YS>
             <YO>3</YO>
           </UDim2>
+          <token name="ResampleMode">0</token>
           <Ref name="RootLocalizationTable">null</Ref>
           <float name="Rotation">0</float>
           <token name="ScaleType">1</token>

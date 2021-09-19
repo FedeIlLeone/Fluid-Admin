@@ -4,7 +4,7 @@ Fluid Admin is a custom Roblox admin panel made to be **simple** and **fast**.
 
 ## Features
 
-- Ban, Unban, Music and Edit Stats.
+- Kick, Ban, Unban, Music and Edit Stats.
 - An intuitive and nice looking UI.
 - Ability to log data on Discord.
 - High security on server side.
