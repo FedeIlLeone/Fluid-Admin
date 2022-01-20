@@ -5,8 +5,7 @@
       <BinaryString name="AttributesSerialize">
       </BinaryString>
       <int64 name="SourceAssetId">-1</int64>
-      <BinaryString name="Tags">
-      </BinaryString>
+      <BinaryString name="Tags"></BinaryString>
     </Properties>
     <Item class="Frame" referent="1">
       <Properties>
@@ -59,8 +58,7 @@
         <token name="SizeConstraint">0</token>
         <int64 name="SourceAssetId">-1</int64>
         <token name="Style">0</token>
-        <BinaryString name="Tags">
-        </BinaryString>
+        <BinaryString name="Tags"></BinaryString>
         <bool name="Visible">true</bool>
         <int name="ZIndex">6</int>
       </Properties>
@@ -115,8 +113,7 @@
           <token name="SizeConstraint">0</token>
           <int64 name="SourceAssetId">-1</int64>
           <token name="Style">0</token>
-          <BinaryString name="Tags">
-          </BinaryString>
+          <BinaryString name="Tags"></BinaryString>
           <bool name="Visible">true</bool>
           <int name="ZIndex">6</int>
         </Properties>
@@ -133,8 +130,7 @@
             </Vector2>
             <float name="Rotation">90</float>
             <int64 name="SourceAssetId">-1</int64>
-            <BinaryString name="Tags">
-            </BinaryString>
+            <BinaryString name="Tags"></BinaryString>
             <NumberSequence name="Transparency">0 0 0 1 0 0 </NumberSequence>
           </Properties>
         </Item>
@@ -148,8 +144,7 @@
               <O>0</O>
             </UDim>
             <int64 name="SourceAssetId">-1</int64>
-            <BinaryString name="Tags">
-            </BinaryString>
+            <BinaryString name="Tags"></BinaryString>
           </Properties>
         </Item>
       </Item>
@@ -233,8 +228,7 @@
           </Rect2D>
           <float name="SliceScale">0.07</float>
           <int64 name="SourceAssetId">-1</int64>
-          <BinaryString name="Tags">
-          </BinaryString>
+          <BinaryString name="Tags"></BinaryString>
           <UDim2 name="TileSize">
             <XS>1</XS>
             <XO>0</XO>
@@ -299,8 +293,7 @@
           </UDim2>
           <token name="SizeConstraint">0</token>
           <int64 name="SourceAssetId">-1</int64>
-          <BinaryString name="Tags">
-          </BinaryString>
+          <BinaryString name="Tags"></BinaryString>
           <string name="Text">FluidUI Flyout</string>
           <Color3 name="TextColor3">
             <R>1</R>
@@ -336,8 +329,7 @@
             </Vector2>
             <float name="Rotation">90</float>
             <int64 name="SourceAssetId">-1</int64>
-            <BinaryString name="Tags">
-            </BinaryString>
+            <BinaryString name="Tags"></BinaryString>
             <NumberSequence name="Transparency">0 0 0 1 0 0 </NumberSequence>
           </Properties>
         </Item>

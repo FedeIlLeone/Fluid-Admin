@@ -56,7 +56,6 @@ function Unban:Run(admin, data)
 
 	local player = data.Player
 	local reason = truncateString(data.Reason, Constants.MAX_REASON_LENGTH)
-	local proofs = data.Proof
 
 	local userId, playerName = PlayerUtility:GetNameAndUserIdFromPlayer(player)
 	if (userId and playerName) == nil then
@@ -91,12 +90,12 @@ function Unban:Run(admin, data)
 		DataStore:SetAsync(DATA_BANS_KEY, bans)
 	end
 	
-	Unban:Log(admin, playerName, userId, reason, proofs)
+	Unban:Log(admin, playerName, userId, reason)
 
 	return true
 end
 
-function Unban:Log(admin, playerName, userId, reason, proofs)
+function Unban:Log(admin, playerName, userId, reason)
 	local embedData = {
 		embeds = {
 			{
@@ -118,10 +117,6 @@ function Unban:Log(admin, playerName, userId, reason, proofs)
 					{
 						name = "Reason",
 						value = reason
-					},
-					{
-						name = "Proof",
-						value = proofs
 					}
 				}
 			}

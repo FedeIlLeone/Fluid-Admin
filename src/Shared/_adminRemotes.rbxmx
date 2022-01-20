@@ -5,8 +5,7 @@
       <BinaryString name="AttributesSerialize">
       </BinaryString>
       <int64 name="SourceAssetId">-1</int64>
-      <BinaryString name="Tags">
-      </BinaryString>
+      <BinaryString name="Tags"></BinaryString>
     </Properties>
     <Item class="Folder" referent="1">
       <Properties>
@@ -14,8 +13,7 @@
         <BinaryString name="AttributesSerialize">
         </BinaryString>
         <int64 name="SourceAssetId">-1</int64>
-        <BinaryString name="Tags">
-        </BinaryString>
+        <BinaryString name="Tags"></BinaryString>
       </Properties>
       <Item class="RemoteEvent" referent="2">
         <Properties>
@@ -23,8 +21,7 @@
           <BinaryString name="AttributesSerialize">
           </BinaryString>
           <int64 name="SourceAssetId">-1</int64>
-          <BinaryString name="Tags">
-          </BinaryString>
+          <BinaryString name="Tags"></BinaryString>
         </Properties>
       </Item>
     </Item>
@@ -34,8 +31,7 @@
         <BinaryString name="AttributesSerialize">
         </BinaryString>
         <int64 name="SourceAssetId">-1</int64>
-        <BinaryString name="Tags">
-        </BinaryString>
+        <BinaryString name="Tags"></BinaryString>
       </Properties>
       <Item class="RemoteEvent" referent="4">
         <Properties>
@@ -43,8 +39,7 @@
           <BinaryString name="AttributesSerialize">
           </BinaryString>
           <int64 name="SourceAssetId">-1</int64>
-          <BinaryString name="Tags">
-          </BinaryString>
+          <BinaryString name="Tags"></BinaryString>
         </Properties>
       </Item>
       <Item class="RemoteEvent" referent="5">
@@ -53,8 +48,7 @@
           <BinaryString name="AttributesSerialize">
           </BinaryString>
           <int64 name="SourceAssetId">-1</int64>
-          <BinaryString name="Tags">
-          </BinaryString>
+          <BinaryString name="Tags"></BinaryString>
         </Properties>
       </Item>
       <Item class="BindableEvent" referent="6">
@@ -63,8 +57,7 @@
           <BinaryString name="AttributesSerialize">
           </BinaryString>
           <int64 name="SourceAssetId">-1</int64>
-          <BinaryString name="Tags">
-          </BinaryString>
+          <BinaryString name="Tags"></BinaryString>
         </Properties>
       </Item>
     </Item>
